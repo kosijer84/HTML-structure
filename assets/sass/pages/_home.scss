@@ -1,0 +1,14 @@
+.home {
+  &-wrapper {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: url(../img/home-back.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    @media(min-width: 768px) {
+      height: 100vh;
+    }
+  }
+}
